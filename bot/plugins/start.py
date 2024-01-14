@@ -14,12 +14,9 @@ async def start(c, m):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(
-                        "Source 😒", url="https://github.com/odysseusmax/animated-lamp"
-                    ),
-                    InlineKeyboardButton("Project Channel", url="https://t.me/odbots"),
+                    InlineKeyboardButton("Join Channel", url="https://t.me/BlackDexModz"),
                 ],
-                [InlineKeyboardButton("My Father", url="https://t.me/odysseusmax")],
+                [InlineKeyboardButton("My Father", url="https://t.me/blackdex")],
             ]
         ),
     )
