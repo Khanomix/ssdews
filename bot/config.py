@@ -3,11 +3,11 @@ import os
 
 class Config:
 
-    API_ID = int(os.environ.get("API_ID"))
-    API_HASH = os.environ.get("API_HASH")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN")
+    API_ID = int(os.environ.get("17520136"))
+    API_HASH = os.environ.get("c1860784db86000a0eaec3f916d6d4ee")
+    BOT_TOKEN = os.environ.get("6717780247:AAEwHzIP2xzZdsiFefVTZn5senscOPrnHHc")
     SESSION_NAME = os.environ.get("SESSION_NAME", ":memory:")
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL"))
+    LOG_CHANNEL = int(os.environ.get("-1002092439112"))
     DATABASE_URL = os.environ.get("DATABASE_URL")
     AUTH_USERS = [int(i) for i in os.environ.get("AUTH_USERS", "").split(" ")]
     MAX_PROCESSES_PER_USER = int(os.environ.get("MAX_PROCESSES_PER_USER", 2))
