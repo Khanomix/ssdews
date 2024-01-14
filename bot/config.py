@@ -8,9 +8,9 @@ class Config:
     BOT_TOKEN = os.environ.get("6717780247:AAEwHzIP2xzZdsiFefVTZn5senscOPrnHHc")
     SESSION_NAME = os.environ.get("SESSION_NAME", ":memory:")
     LOG_CHANNEL = int(os.environ.get("-1002092439112"))
-    DATABASE_URL = os.environ.get("DATABASE_URL")
-    AUTH_USERS = [int(i) for i in os.environ.get("AUTH_USERS", "").split(" ")]
-    MAX_PROCESSES_PER_USER = int(os.environ.get("MAX_PROCESSES_PER_USER", 2))
+    DATABASE_URL = os.environ.get("postgres://regfjsut:7ofUvHUQtBx8in2CHLw37nAh7XH8b5L6@balarama.db.elephantsql.com/regfjsut")
+    AUTH_USERS = [int(i) for i in os.environ.get("5798143340", "1160615379").split(" ")]
+    MAX_PROCESSES_PER_USER = int(os.environ.get("MAX_PROCESSES_PER_USER", 15))
     MAX_TRIM_DURATION = int(os.environ.get("MAX_TRIM_DURATION", 600))
     TRACK_CHANNEL = int(os.environ.get("TRACK_CHANNEL", False))
     SLOW_SPEED_DELAY = int(os.environ.get("SLOW_SPEED_DELAY", 5))
