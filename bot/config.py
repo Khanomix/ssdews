@@ -8,7 +8,7 @@ class Config:
     BOT_TOKEN = "6717780247:AAEwHzIP2xzZdsiFefVTZn5senscOPrnHHc"
     SESSION_NAME = os.environ.get("SESSION_NAME", ":memory:")
     LOG_CHANNEL = -1002092439112
-    DATABASE_URL = "postgres://regfjsut:7ofUvHUQtBx8in2CHLw37nAh7XH8b5L6@balarama.db.elephantsql.com/regfjsut"
+    DATABASE_URL = "mongodb+srv://v8242428a2749464:Vaibhav8242428@screenshotgen.0h9ce5p.mongodb.net/?retryWrites=true&w=majority"
     AUTH_USERS = "5798143340","5798143340"
     MAX_PROCESSES_PER_USER = int(os.environ.get("MAX_PROCESSES_PER_USER", 15))
     MAX_TRIM_DURATION = int(os.environ.get("MAX_TRIM_DURATION", 600))
