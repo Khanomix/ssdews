@@ -3,17 +3,17 @@ import os
 
 class Config:
 
-    API_ID = int(os.environ.get("17520136"))
-    API_HASH = os.environ.get("c1860784db86000a0eaec3f916d6d4ee")
-    BOT_TOKEN = os.environ.get("6717780247:AAEwHzIP2xzZdsiFefVTZn5senscOPrnHHc")
+    API_ID = "17520136"
+    API_HASH = "c1860784db86000a0eaec3f916d6d4ee"
+    BOT_TOKEN = "6717780247:AAEwHzIP2xzZdsiFefVTZn5senscOPrnHHc"
     SESSION_NAME = os.environ.get("SESSION_NAME", ":memory:")
-    LOG_CHANNEL = int(os.environ.get("-1002092439112"))
-    DATABASE_URL = os.environ.get("postgres://regfjsut:7ofUvHUQtBx8in2CHLw37nAh7XH8b5L6@balarama.db.elephantsql.com/regfjsut")
-    AUTH_USERS = [int(i) for i in os.environ.get("5798143340", "1160615379").split(" ")]
+    LOG_CHANNEL = -1002092439112
+    DATABASE_URL = "postgres://regfjsut:7ofUvHUQtBx8in2CHLw37nAh7XH8b5L6@balarama.db.elephantsql.com/regfjsut"
+     AUTH_USERS = "5798143340", "1160615379"
     MAX_PROCESSES_PER_USER = int(os.environ.get("MAX_PROCESSES_PER_USER", 15))
     MAX_TRIM_DURATION = int(os.environ.get("MAX_TRIM_DURATION", 600))
     TRACK_CHANNEL = int(os.environ.get("TRACK_CHANNEL", False))
-    SLOW_SPEED_DELAY = int(os.environ.get("SLOW_SPEED_DELAY", 5))
+    SLOW_SPEED_DELAY = int(os.environ.get("SLOW_SPEED_DELAY", 2))
     HOST = os.environ.get("HOST", "")
     TIMEOUT = int(os.environ.get("TIMEOUT", 60 * 30))
     DEBUG = bool(os.environ.get("DEBUG"))
