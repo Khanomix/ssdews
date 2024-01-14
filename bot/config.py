@@ -6,7 +6,7 @@ class Config:
     API_ID = "17520136"
     API_HASH = "c1860784db86000a0eaec3f916d6d4ee"
     BOT_TOKEN = "6717780247:AAEwHzIP2xzZdsiFefVTZn5senscOPrnHHc"
-    SESSION_NAME = os.environ.get("ssgen", ":memory:")
+    SESSION_NAME = "SS_Gen"
     LOG_CHANNEL = -1002092439112
     DATABASE_URL = "mongodb+srv://v8242428a2749464:Vaibhav8242428@screenshotgen.0h9ce5p.mongodb.net/?retryWrites=true&w=majority"
     AUTH_USERS = "5798143340","5798143340"
