@@ -3,13 +3,13 @@ import os
 
 class Config:
 
-    API_ID = "17520136"
-    API_HASH = "c1860784db86000a0eaec3f916d6d4ee"
-    BOT_TOKEN = "6717780247:AAEwHzIP2xzZdsiFefVTZn5senscOPrnHHc"
+    API_ID = "18991521"
+    API_HASH = "0c1086e0013e5f6633ad3b4bae13238b"
+    BOT_TOKEN = "6856735851:AAGcLvCpc4XY187gr5DtGp4B58rBy_ClBFs"
     SESSION_NAME = "SS_Gen"
-    LOG_CHANNEL = -1002092439112
-    DATABASE_URL = "mongodb+srv://v8242428a2749464:Vaibhav8242428@screenshotgen.0h9ce5p.mongodb.net/?retryWrites=true&w=majority"
-    AUTH_USERS = "5798143340","5798143340"
+    LOG_CHANNEL = -1002146220863
+    DATABASE_URL = "mongodb+srv://amelieclubb:amelieclubb0@amelieclubb.xpzmwav.mongodb.net/?retryWrites=true&w=majority&appName=amelieclubb"
+    AUTH_USERS = "1633416742"
     MAX_PROCESSES_PER_USER = int(os.environ.get("MAX_PROCESSES_PER_USER", 15))
     MAX_TRIM_DURATION = int(os.environ.get("MAX_TRIM_DURATION", 600))
     TRACK_CHANNEL = int(os.environ.get("TRACK_CHANNEL", False))
